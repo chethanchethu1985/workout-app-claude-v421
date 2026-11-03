@@ -148,6 +148,7 @@ select{appearance:auto}
 <section id="player" class="hide"></section>
 </main>
 <script src="plan_v4.js"></script>
+<script src="health_sync.js"></script>
 <script src="xlsx.full.min.js"></script>
 <script>
 var KEY='myWorkouts.v3';
@@ -1253,5 +1254,6 @@ function ring(p,color,label,sub){var c=163.4;return '<div class="rg"><svg viewBo
 render();
 
 </script>
+<button onclick="hcTest()" style="position:fixed;right:10px;bottom:80px;z-index:99999;padding:10px 14px;border:0;border-radius:20px;background:#e53935;color:#fff;font-size:13px">Health test</button>
 </body>
 </html>

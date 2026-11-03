@@ -1,0 +1,9 @@
+{
+  "appId": "com.myworkout.v3",
+  "appName": "My Workouts",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "backgroundColor": "#000000"
+}
